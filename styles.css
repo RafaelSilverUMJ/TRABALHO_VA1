@@ -1,0 +1,295 @@
+
+/*ISSO FICOU MAIOR DO QUE EU ESPERAVA  ASS: SILVER */
+
+body{
+    font-family: "Nunito", sans-serif;
+}
+
+
+body.index {
+    background-color: #FF9A9A;
+    
+}
+
+
+body.index::before{
+    content: "";
+    background-image: url('IMG/fundo-site.jpg');
+    background-size: cover;
+    background-position: center;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    opacity: 0.5;
+    z-index: -1; 
+}
+
+
+/*TÍTULOS E PARÁGRAFOS*/
+p{
+    text-indent: 30px;
+}
+
+#p_inicial{
+    margin-top: 40px;
+}
+
+#p_inicial p{
+    font-weight: 900;
+    color: #000000;
+    font-size: 15pt;
+    
+}
+
+div p {
+    margin-top: 20px;
+    font-family: "Nunito", sans-serif;
+    line-height: 1.6;
+    margin-bottom: 15px; 
+    font-size: 18px;
+    font-weight: 650;
+    Display: flex;
+    Justify-content: center;
+}
+
+
+h1{
+    font-family: "Raleway", sans-serif;
+}
+
+.titulo{
+    position: fixed;
+    background-color: #ff6e61b3;
+    width: 110%;
+    margin-left: -68px;
+    top: 0;
+    z-index: 1000;
+}
+
+#titulo2{
+    background-color: #f5f5dce2;
+}
+
+.titulo h1{
+    display: flex;
+    justify-content: center;
+}
+
+/*Estilização da tag <span> para sublinhado*/
+.sublinhado {
+    text-decoration: underline;
+    font-style: italic;
+    margin-left: -22px;
+}
+
+/*INÍCIO CORES*/
+#nav_index{
+    background-color: #f3d149;
+}
+
+/*VERÃO*/
+body.verao{
+    background-color: #f3e412;
+}
+
+#nav1{
+    background-color: #FFFFFF;
+}
+
+#menu1 li{
+    border-color:#f3e412 ;
+}
+
+#menu1 li:hover{
+    background-color: #FB8B59;
+    border-color:#FB8B59 ;
+}
+
+#principal1{
+    background-color: #FB8B59;
+}
+
+/*OUTONO*/
+body.outono{
+    background-color: #f38c16;
+}
+
+#nav2{
+    background-color: #6B8E23;
+}
+
+#menu2 li{
+    border-color:#f38c16 ;
+}
+
+#menu2 li:hover{
+    background-color: #F5F5DC;
+    border-color: #F5F5DC;
+}
+
+#principal2{
+    background-color: #F5F5DC;
+}
+
+/*INVERNO*/
+body.inverno{
+    background-color: #4b57fa;
+}
+
+#nav3{
+    background-color: #A2D7E6;
+}
+
+#menu3 li{
+    border-color:#4b57fa;
+    
+}
+
+#menu3 li:hover{
+    background-color: #C4678D;
+    border-color: #C4678D ;
+}
+
+#principal3{
+    background-color:#C4678D ;
+}
+
+/*PRIMAVERA*/
+body.primavera{
+    background-color: #A3D9A5;
+}
+
+#nav4{
+    background-color: #f3d149;
+}
+
+#menu4 li{
+    border-color:#A3D9A5 ;
+}
+
+#menu4 li:hover{
+    background-color: #E48B72;
+    border-color:#E48B72 ;
+}
+
+#principal4{
+    background-color: #E48B72;
+}
+
+/*ESTILIZAÇÃO GERAL DOS MENUS*/
+
+.menu{
+    display: flex; 
+}
+
+.menu li{
+    list-style-type: none;
+    display: flex; 
+    align-items: center; 
+    justify-content: center; 
+    border: 2px solid #e48b723b;
+    border-top: none;
+    border-bottom: none;
+    height: 55px;
+    padding: 8px 100px;   
+}
+
+.menu li a{
+    display: block;
+    text-decoration: none;
+    padding: 100px 20px;   
+    display: flex; 
+    justify-content: center;
+    align-items: center;
+    color: #000000;
+    
+}
+
+.menu li:hover{
+    cursor: pointer;
+    transition: 0.2s;
+    font-size: 15pt;
+    font-weight: 700;
+    box-shadow: 
+    0px 4px 6px rgba(0, 0, 0, 0.3), 
+    0px -4px 6px rgba(0, 0, 0, 0.3); 
+    
+}
+nav{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 100px;
+    height: 70px; 
+}
+
+.principal{
+    font-size: 15pt;
+    background-color: #ff6e61;
+    border-color: #ff6e61;
+    font-weight: 700;
+    box-shadow: 
+    0px 4px 6px rgba(0, 0, 0, 0.3), 
+    0px -4px 6px rgba(0, 0, 0, 0.3); 
+   
+}
+
+
+
+/*IMAGENS*/
+
+img{
+    height: 400px;
+}
+
+.geral1 img{
+    margin-top: 15px;
+}
+
+
+/*DIVS PRINCIPAIS*/
+.geral1, .geral2 {
+    display: flex;
+    align-items: center; 
+    gap: 20px;
+    padding: 20px;
+    margin-top: 0;
+    font-size: 14pt;
+    margin-right: 40px;
+    margin-left: 30px;
+    
+}
+
+
+
+/*LINKS*/
+a{
+    font-weight: 700;
+}
+
+a:hover{
+    font-size: 15pt;
+    transition: 0.3s;
+}
+
+.rodape{
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+
+.link1{ /*Verão*/
+    color: #FB8B59;
+}
+.link2{ /*Outono*/
+    color: #F5F5DC;
+}
+.link3{ /*Inverno*/
+    color: #C4678D;
+}
+.link4{ /*Primavera*/
+    color: #E48B72 ;;
+}
