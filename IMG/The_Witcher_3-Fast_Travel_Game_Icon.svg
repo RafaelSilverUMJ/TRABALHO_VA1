@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg width="128" height="128" viewBox="0 0 34 34" xmlns="http://www.w3.org/2000/svg">
+<defs>
+	<linearGradient id="Grad1" y2="14" spreadMethod="reflect" gradientUnits="userSpaceOnUse" x2="15.432" y1="14" x1="12.464">
+		<stop stop-color="#333" stop-opacity=".3" offset="0"/>
+		<stop stop-color="#333" offset="1"/>
+	</linearGradient>
+</defs>
+<path d="m8.9298 1h6.0797v3l9.9203 0.0000469 4 4.407-4 4.407-9.9203 0.000089v20.186h-6.0797v-20.186h-4v-8.8141h4z" stroke="#333" stroke-linecap="square" fill="#9e9"/>
+<g stroke="url(#Grad1)" stroke-width="1px" stroke-opacity=".6" fill="none">
+	<path d="m8.8984 12.814h6.1193"/>
+	<path d="m8.8984 4h6.1193"/>
+</g>
+</svg>
